@@ -17,14 +17,14 @@ function Hero() {
               className="text-red-600 xl:text-[80px] uppercase text-[40px] md:text-[50px] text-center lg:text-[80px] font-bold">
               Sports, Podcasting, Faith, Music
             </marquee>
-            {/* <div className="flex justify-center items-center mt-1 flex-col gap-5 lg:gap-7 md:flex-row">
+            <div className="flex justify-center items-center mt-1 flex-col gap-5 lg:gap-7 md:flex-row">
               <button className="bg-red-600 uppercase  text-white border text-[22px] md:text-[24px] rounded-full font-bold px-10 py-2">
                 get started
               </button>
               <button className="uppercase bg-white rounded-full border-red-600 text-[22px] border  px-10 py-2 font-bold md:text-[24px] text-red-600">
                 views plans
               </button>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
