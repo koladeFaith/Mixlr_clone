@@ -5,3 +5,6 @@
 .wrapper {
   @apply mx-auto container px-4;
 }
+.hide{
+  display: none;
+}

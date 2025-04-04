@@ -16,12 +16,15 @@ function Header() {
               <button>Pricing</button>
               <button>Login</button>
             </div>
-            <button className="text-red-600 border rounded-full px-1 md:px-5  md:py-2 py-1 flex gap-3 font-semibold ">
-              <span className=" md:px-2 px-1 font-bold text-[20px] rounded-full border border-red-700">
-                +
-              </span>
-              <span className="hidden md:block">Get Started</span>
-            </button>
+            <div className="overlay">
+              <button className="text-red-600 border rounded-full px-1 md:px-5  md:py-2 py-1 flex gap-3 font-semibold ">
+                <span className=" md:px-2 px-1 font-bold text-[20px] rounded-full border border-red-700">
+                  +
+                </span>
+                <span className="hidden md:block">Get Started</span>
+              </button>
+            </div>
+            <div className="hide text-[40px] text-red-800">Hello</div>
           </div>
         </div>
       </header>
