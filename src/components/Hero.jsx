@@ -3,9 +3,9 @@ function Hero() {
   return (
     <>
       <section>
-        <div className="pt-[90px] h-[450px] md:h-[510px] lg:h-[700px]">
+        <div className="pt-[90px] h-[400px] md:h-[440px] lg:h-[600px]">
           <div className="relative ">
-            <img src={waveImg} alt="" className="mx-auto my-4" />
+            <img src={waveImg} alt="" className="mx-auto w-[100%] mt-5" />
           </div>
           <div className="absolute top-[200px] lg:top-[170px] ">
             <h1 className=" text-black uppercase text-[30px] mx-3 md:mx-10 md:text-[40px] lg:text-[80px] lg:mx-[200px]  xl:text-[90px] font-bold leading-[35px] lg:leading-[90px]  text-center">
@@ -17,11 +17,11 @@ function Hero() {
               className="text-red-600 xl:text-[80px] uppercase text-[40px] md:text-[50px] text-center lg:text-[80px] font-bold">
               Sports, Podcasting, Faith, Music
             </marquee>
-            <div className="flex justify-center items-center mt-1 flex-col gap-5 lg:gap-7 md:flex-row">
-              <button className="bg-red-600 uppercase hover:bg-red-500   text-white border text-[22px] md:text-[24px] rounded-full font-bold px-10 py-2">
+            <div className="flex justify-center items-center mt-1 flex-col gap-4 md:gap-3 lg:gap-4 md:flex-row">
+              <button className="bg-red-600 uppercase hover:bg-red-500   text-white border text-[22px] md:text-[30px] rounded-full font-bold px-10 py-2">
                 get started
               </button>
-              <button className="uppercase bg-white rounded-full hover:text-black border-red-600 text-[22px] border  px-10 py-2 font-bold md:text-[24px] text-red-600">
+              <button className="uppercase bg-white rounded-full hover:text-black border-red-600 text-[22px] border  px-10 py-2 font-bold md:text-[30px] text-red-600">
                 views plans
               </button>
             </div>
