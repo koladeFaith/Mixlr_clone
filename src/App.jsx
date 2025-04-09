@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Product from "./components/Product";
 import Hero from "./components/Hero";
 import Section_1 from "./components/Section_1";
+import Logo from "./components/Logo";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Section_1 />
       <Product />
+      <Logo />
       <Footer />
     </>
   );
