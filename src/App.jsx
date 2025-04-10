@@ -4,6 +4,7 @@ import Product from "./components/Product";
 import Hero from "./components/Hero";
 import Section_1 from "./components/Section_1";
 import Logo from "./components/Logo";
+import Description from "./components/Description";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <Section_1 />
       <Product />
       <Logo />
+      <Description />
       <Footer />
     </>
   );
