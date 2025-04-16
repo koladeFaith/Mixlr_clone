@@ -14,11 +14,11 @@ import image12 from "../assets/obama-foundation-096c9f2cbf7afd2473b7dd7f510ae0fa
 function Logo() {
   return (
     <>
-      <h1 className=" uppercase text-[35px] md:text-[40px] pb-14 mx-auto lg:w-3/5  w-3/5 lg:text-[50px]   text-center md:leading-[40px] leading-[29px] lg:leading-[50px] text-black font-extrabold ">
+      <h1 className=" uppercase text-[35px] md:text-[40px] pb-10 pt-16 mx-auto lg:w-2/5  w-3/5 lg:text-[55px]   text-center md:leading-[40px] leading-[29px] lg:leading-[50px] text-black font-extrabold ">
         You're in{" "}
         <span className="text-red-600 font-extrabold">good company...</span>{" "}
       </h1>
-      <div className="mx-[20px] grid grid-cols-3 md:grid-cols-6 gap-[28px] lg:w-3/4 md:mx-auto mb-[60px]">
+      <div className=" grid grid-cols-3 md:grid-cols-6 gap-[30px]   lg:w-3/4 md:mx-auto mb-[60px]">
         {LogoData.map((logo, i) => (
           <Logos key={i} images={logo.images} />
         ))}
@@ -46,7 +46,11 @@ const LogoData = [
 function Logos({ images }) {
   return (
     <>
-      <img src={images} className="w-[80px] md:w-[100px] lg:w-[120px]" alt="Logo image" />
+      <img
+        src={images}
+        className="w-[90px] md:w-[120px] lg:w-[140px]"
+        alt="Logo image"
+      />
     </>
   );
 }

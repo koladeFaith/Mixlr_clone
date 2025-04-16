@@ -11,7 +11,7 @@ function Product() {
       <section className="lg:w-3/4 w-full  mx-auto">
         <div>
           {/* HEADING */}
-          <h1 className=" uppercase text-[35px] md:text-[40px] pb-14 mx-auto md:  w-full lg:text-[55px]   text-center md:leading-[40px] leading-[29px] lg:leading-[50px] text-black font-extrabold ">
+          <h1 className=" uppercase text-[35px] md:text-[40px] pb-14 mx-auto lg:w-[95%] lg:text-[55px]   text-center md:leading-[40px] leading-[29px] lg:leading-[50px] text-black font-extrabold ">
             the complete flatform for{" "}
             <span className="text-red-600 font-extrabold">
               professional audio
@@ -21,6 +21,9 @@ function Product() {
           <div>
             <CardList />
           </div>
+          <p className="text-red-600 font-extrabold text-[24px] md:[40px] mb-[20px] uppercase text-center">
+            View all features
+          </p>
         </div>
       </section>
     </>
@@ -84,7 +87,7 @@ function Card({ name, description, image }) {
 function CardList() {
   return (
     <>
-      <div className="mx-[20px] lg:mx-[60px] xl:mx-[80px] mb-[40px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+      <div className="mx-[20px] lg:mx-[60px] xl:mx-[80px] mb-[20px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
         {cardData.map((item, i) => (
           <Card
             key={i}

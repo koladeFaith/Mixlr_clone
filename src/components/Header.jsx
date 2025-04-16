@@ -1,4 +1,5 @@
 import logo from "../assets/download.svg";
+import Image from "../assets/download (27).svg";
 function Header() {
   return (
     <>
@@ -20,13 +21,13 @@ function Header() {
             </div>
             <div className="overlay">
               <button className="text-red-600 border rounded-full px-1 md:px-5  md:py-2 py-1 flex gap-3 font-semibold ">
-                <span className=" md:px-2 px-1 font-bold text-[20px] rounded-full border border-red-700">
+                {/* <span className=" md:px-2 px-1 font-bold text-[18px] rounded-full border border-red-700">
                   +
-                </span>
+                </span> */} <img src={Image} className="w-[20px] text-red-600"  alt="" />
                 <span className="hidden md:block">Get Started</span>
               </button>
             </div>
-            <div className="hide text-[40px] text-red-800">Hello</div>
+            {/* <div className="hide text-[40px] text-red-800">Hello</div> */}
           </div>
         </div>
       </header>
