@@ -23,10 +23,10 @@ function Footer() {
           {" "}
           <img src={logo2} alt="" className="w-[60px] mt-20" />
         </div>
-        <div>
-          <img src={facebook} className="text-red-600" alt="" />
-          <img src={twitter}  className="bg-red-600"alt="" />
-          <img src={instagram} className="bg-red-600" alt="" />
+        <div className="flex justify-center gap-5 pt-10 items-center">
+          <img src={facebook} className="" alt="" />
+          <img src={twitter} className="" alt="" />
+          <img src={instagram} className="" alt="" />
         </div>
         <div className="md:flex justify-center gap-7 py-10 text-[17px]  text-center">
           <a href="">
