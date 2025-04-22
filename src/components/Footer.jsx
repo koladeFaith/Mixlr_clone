@@ -30,27 +30,27 @@ function Footer() {
         </div>
         <div className="md:flex justify-center gap-7 py-10 text-[17px]  text-center">
           <a href="">
-            <li>Pricing</li>
+            <li className="list-none">Pricing</li>
           </a>
           <a href="">
             {" "}
-            <li>Blog</li>
+            <li className="list-none">Blog</li>
           </a>
 
           <a href="">
-            <li>Support</li>
+            <li className="list-none">Support</li>
           </a>
 
           <a href="">
-            <li>Careers</li>
+            <li className="list-none">Careers</li>
           </a>
 
           <a href="">
-            <li>Terms of Use</li>
+            <li className="list-none">Terms of Use</li>
           </a>
 
           <a href="">
-            <li>Privacy Policy</li>
+            <li className="list-none">Privacy Policy</li>
           </a>
         </div>
         <p className="text-center text-[17px]">
