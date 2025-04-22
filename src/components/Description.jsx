@@ -25,9 +25,9 @@ function Description() {
             <h4 className="lg:text-[55px] text-[50px] uppercase font-extrabold">
               190
             </h4>
-            {/* <p className="lg:text-[32px]  leading-[30px] text-[30px] text-white font-medium">
+            <p className="lg:text-[32px]  leading-[30px] text-[30px] text-white font-medium">
               Countries reached
-            </p> */}
+            </p>
           </div>
           <div className="pl-[30px] pt-5 pb-6 h-[240px] md:h-[260px] bg-red-600 rounded-lg ">
             <img src={img3} alt="" className="w-[50px] lg:w-[70px] " />
